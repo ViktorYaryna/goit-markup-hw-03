@@ -167,7 +167,7 @@ p {
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../project/images/hero-image.jpg);
+        url(../images/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -506,4 +506,8 @@ p {
 
 .footer-colomn {
     margin-right: 120px;
+}
+
+.svg-item{
+fill: #f4f4fd;
 }
