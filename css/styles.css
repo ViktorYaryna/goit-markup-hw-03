@@ -282,7 +282,7 @@ p {
 }
 
 .features-item:not(:last-child) {
-    margin-bottom: 72px;
+
 }
 
 .icon-features-all {
@@ -309,7 +309,7 @@ p {
 
 .team {
     background: #f4f4fd;
-    padding: 96px 14px 24px 14px;
+    padding: 120px 14px 24px 14px;
 }
 
 .our-team-all {
@@ -356,7 +356,6 @@ p {
 }
 
 .team-item {
-    margin-bottom: 72px;
 }
 
 .team-img {
@@ -551,9 +550,7 @@ p {
 .footer-list {
     display: flex;
     flex-wrap: wrap;
-    /* padding-top: 16px; */
     gap: 16px;
-    margin-bottom: 72px;
 }
 
 
@@ -997,6 +994,7 @@ p {
     .features-list {
         display: flex;
         flex-wrap: wrap;
+        gap: 72px 24px;
     }
 
     .features-item {
@@ -1054,6 +1052,10 @@ p {
 
     .footer-logo-text {
         margin-right: 24px;
+    }
+
+    .footer-column, footer-logo-text{
+        margin-bottom: 72px;
     }
 
 }
