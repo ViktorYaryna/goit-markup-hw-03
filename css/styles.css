@@ -951,6 +951,10 @@ p {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .features-item{
+        margin-bottom: 72px;
+    }
+
     .header-address-link:hover,
     .header-address-link:focus {
         color: #404bbf;
