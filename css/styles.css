@@ -282,7 +282,7 @@ p {
 }
 
 .features-item:not(:last-child) {
-
+margin-bottom: 72px;
 }
 
 .icon-features-all {
@@ -877,6 +877,7 @@ p {
         max-width: 768px;
     }
 
+
     .header-menu-list {
         display: flex;
         gap: 40px;
@@ -951,9 +952,6 @@ p {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .features-item{
-        margin-bottom: 72px;
-    }
 
     .header-address-link:hover,
     .header-address-link:focus {
